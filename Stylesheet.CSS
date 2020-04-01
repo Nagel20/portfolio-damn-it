@@ -1,0 +1,189 @@
+body{
+	font-family: muli; 
+	margin: 0;
+}
+
+
+.header-text-container {
+	text-align: center; 
+}
+
+header {
+	background-color: #ffffff; 
+	position: sticky;
+	top: 0px;
+	width: 100%;
+}
+
+
+ul {
+	padding: 5px 10px;
+	display: flex;
+	text-decoration: none;
+	justify-content: space-between; 
+	list-style: none; 
+}
+
+
+li {
+	list-style: none;
+	text-decoration: none; 
+	display: block;
+}
+
+
+.nav-bar-container {
+  box-shadow: 0 8px 5px -10px black;
+  width: 100%;
+}
+
+.nav-bar-container_list { 
+	background-color: #ffffff;  
+	color: #000000; 
+	border: none;
+	position: relative; 
+	display: flex; 
+}
+
+
+.nav-bar-container_list_item {
+	background-color: #ffffff;
+	min-width: 200px;
+	z-index: 1; 
+}
+
+
+.sub-menu {
+	display: none;
+	position: absolute;
+}
+
+.nav-bar-container_list_item:hover .sub-menu {
+	display: block;
+}
+
+
+a {
+	background-color: #ffffff; 
+	color: #000000;
+	display: block; 
+	text-decoration: none; 
+}
+
+a:hover {
+	color: rgb(28, 91, 114); 
+}
+
+.nav-bar-container_list_item a {
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	padding: 10px 10px; 
+	text-align: left; 
+}
+
+.nav-bar-container_list_item a:hover {
+	color: rgb(28, 91, 114); 
+}
+
+.nav-bar-container_list:hover .nav-bar-container_list_item {
+	display: block; 
+}
+
+
+h1{
+	color: rgb(0, 0, 0);
+	font-size: 36px;
+	line-height: 47px; 
+}
+
+
+h2 {
+	color: rgb(29, 92, 114); 
+	font-size: 36px; 
+	line-height: 47px; 	
+}
+
+
+h3 {
+	font-style: normal;
+	font-size: 18px; 
+}
+
+
+h6 {
+	color: rgb(0, 0, 0);
+	font-size: 11px; 
+	line-height: 14px;
+	text-align: center;
+}
+
+
+img {
+	display: flex; 
+	margin: 50px;
+}
+
+
+.container-portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+	align-items: center; 
+}
+
+
+#arrow {
+	text-align: center;
+	color: rgb(29, 92, 114);	
+	/*don't really know what to do with this icon. Come across multiple ways to approach it, but don't know which one to use?*/
+	/* you can use this website to add icons https://fontawesome.com/icons?d=gallery */
+}
+
+
+.line-footer-1 {
+	width: 80%; 
+	height: 1.5px;
+	background-color: rgb(150, 150, 150); 
+	opacity: 30%;
+	border: none;
+	border-radius: 0.5px;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom: 40px; 
+	margin-top: 40px;
+	}
+
+.line-footer-2 {
+	width: 100%; 
+	height: 1px;
+	background-color: rgb(150, 150, 150); 
+	opacity: 50%; 
+	border: none;
+	border-radius: 0.5px;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom: 40px; 
+	margin-top: 30px;
+}
+
+.buttons-container{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+}
+
+
+button {
+	background-color: rgb(126, 163, 176); 
+	color: #ffffff;
+	height: 40px;
+	width: 8%;
+	border: none;
+	border-radius: 5px; 
+	text-decoration: none;
+	text-align: center; 
+	font-size: 13px; 
+	line-height: 17px; 
+	display: inline-block;
+	justify-content: space-between;
